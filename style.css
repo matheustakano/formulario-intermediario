@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3 {
+    font-family: 'Staatliches';
+    font-weight: 400;
+    font-style: uppercase;
+}
+
+p, label, input {
+    font-family: 'Poppins';
+    font-weight: 400;
+}
+
+.line {
+    width: 100%;
+    border: 1px solid #E6E6F0;
+}
+
+body {
+    position: relative;
+    background-color: #EFEFEF;
+}
+
+.background-header{
+    height: 436px;
+    background-color: #535971;
+    width: 100%;
+}
+
+.container {
+    margin: 140px auto;
+    display: flex;
+    flex-direction: column;
+    width: 750px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.container header {
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 18px;
+    color: white;
+}
+
+.container header h1 {
+    font-size: 50px;
+}
+
+.container header p {
+    font-size: 20px;
+}
+
+form {
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+    background-color: white;
+    padding: 64px;
+}
+
+.header-data {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 34px;
+}
+
+.pessoal-data {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 30px;
+}
+
+.pessoal-data label {
+    font-size: 14px;
+}
+
+input {
+    border-radius: 8px;
+    border: 1px solid #E6E6F0;
+    padding: 20px;
+    background-color: #FAFAFC;
+}
+
+.mentor-data {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.mentor-data label {
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.schedule h2 {
+    margin-bottom: 8px;
+}
+
+.first-mentoring {
+    display: flex;
+    align-items: center;
+}
+
+.data {
+    width: 300px;
+    margin-right: 32px;
+}
+
+.das {
+    width: 140px;
+    margin-right: 10px;
+}
+
+.ate {
+    width: 140px;
+}
+
+.structure {
+    display: flex;
+    flex-direction: column;
+}
+
+.second-mentoring {
+    display: flex;
+    align-items: center;
+}
+
+.save-button {
+    height: 160px;
+    background-color: #535971;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 140px;
+    border-radius: 0 0 20px 20px;
+}
+
+button {
+    width: 610px;
+    height: 55px;
+    background-color: #FF5374;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-family: 'Staatliches';
+    font-size: 20px;
+}
